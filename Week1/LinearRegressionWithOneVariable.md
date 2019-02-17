@@ -21,7 +21,8 @@ Choose theta[0], theta[1] so that h(x) is close to y for our training examples (
 ## In equation
 
 Step 1: The following represents minimizing theta[0] and theta[1] to match our output(y) as much as possible
-![Minimizing Cost Function - 1](./img/minCostFunc_1.png){width: 200px;}
+![Minimizing Cost Function - 1](./img/minCostFunc_1.png)
+{: width: "200px"}
 
 
 Step 2: Let J(theta[0], theta[1]) be most of our cost function.
