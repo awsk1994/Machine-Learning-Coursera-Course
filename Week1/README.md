@@ -10,3 +10,6 @@
    - Gradient Descent
 
 
+# TODO:
+ - Quiz
+ - Assignment
