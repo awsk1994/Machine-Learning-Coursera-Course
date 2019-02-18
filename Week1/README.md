@@ -8,8 +8,3 @@
  - [Linear Regression with One Variable](./LinearRegressionWithOneVariable.md)
    - Modal and Cost Function
    - Gradient Descent
-
-
-# TODO:
- - Quiz
- - Assignment

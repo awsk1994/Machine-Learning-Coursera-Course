@@ -8,12 +8,9 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
  - [Introduction to Machine Learning](./Week1/IntroToML.md)
    - What is Machine Learning?
    - Supervised vs Unsupervised Learning
+   - [Quiz](./Week1/IntroToML_quiz.md)
+
  - [Linear Regression with One Variable](./Week1/LinearRegressionWithOneVariable.md)
    - Modal and Cost Function
    - Gradient Descent
-
-**TODO: (Week 1)**
- - Quiz
- - Assignment
-
-
+   - [Quiz](./Week1/LinearRegressionWithOneVariable_quiz.md)
