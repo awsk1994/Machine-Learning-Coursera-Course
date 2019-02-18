@@ -9,6 +9,8 @@ For the training set given above (note that this training set may also be refere
 **Answer:**
 4
 
+---
+
 2. For this question, assume that we are using the training set from Q1. Recall our definition of the cost function was ![costFunc](./img/minCostFunc_2.png). What is J(0,1)? In the box below, please enter your answer (Simplify fractions to decimals when entering answer, and '.' as the decimal delimiter e.g., 1.5).
 
 hθ(x) = θ[0] + θ[1]X
@@ -20,9 +22,13 @@ hθ(x) = (0) + (1)X = X
 J(θ[0],[1]) = Cost Function = (1/2m)(hθ(x[i]) - y[i])^2
  = (1/(2 * 4))(1^2 + (-1)^2 + 1^2 + 1^2) = **0.5**
 
+---
+
 3. Suppose we set θ[0] = 0,θ[1]=0.5. What is hθ(2)?
 
 hθ(2) = 0 + (1.5)(2) = **3**
+
+---
 
 4.
 Let f be some function so that f(θ[0],θ[1]) outputs a number. For this problem, f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima). Suppose we use gradient descent to try to minimize f(θ[0], θ[1]) as a function of θ[0] and θ[1]. Which of the following statements are true? (Check all that apply.)
@@ -35,6 +41,8 @@ Let f be some function so that f(θ[0],θ[1]) outputs a number. For this problem
    - If alpha were small enough, then gradient descent should always successfully take a tiny small downhill and decrease f(θ[0],θ[1]) at least a little bit. If gradient descent instead increases the objective value, that means alpha is too large (or you have a bug in your code!).
  - **If the learning rate is too small, then gradient descent may take a very long time to converge.**
    - If the learning rate is small, gradient descent ends up taking an extremely small step on each iteration, and therefore can take a long time to converge.
+
+---
 
 5. Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some θ[0], θ[1] such that J(θ[0],θ[1])=0. Which of the statements below must then be true? (Check all that apply.)
 
