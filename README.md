@@ -14,3 +14,10 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
    - Modal and Cost Function
    - Gradient Descent
    - [Quiz](./Week1/LinearRegressionWithOneVariable_quiz.md)
+
+### Week 2
+ - [Linear Regression with Multiple Variables](./Week2/LinearRegressionWithMultipleVariables.md)
+   - Multivariate Linear Regression
+   - Computing Parameters Analytically
+
+ - [Octave Notes]()
