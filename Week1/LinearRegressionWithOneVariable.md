@@ -5,7 +5,9 @@
 ## Example
 Using an example of house prices based on size of the house, you can think of the model being like:
 
+`
 Size of House(X) -> h (Hypothesis) -> Estimated Price(Y)
+`
 
  - h maps X to Y
  - h can be represented by: **h(x) = theta[0] + theta[1] * x**
