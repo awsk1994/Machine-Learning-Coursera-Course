@@ -3,12 +3,12 @@
  - is supervised learning
  
 ## Example
+Using an example of house prices based on size of the house, you can think of the model being like:
+
 Size of House(X) -> h (Hypothesis) -> Estimated Price(Y)
 
-h maps X to Y
-
-## Representing h
-h(x) = theta[0] + theta[1] * x
+ - h maps X to Y
+ - h can be represented by: **h(x) = theta[0] + theta[1] * x**
 
 # Cost Function
 Recall that hypothesis is h(x) = theta[0] + theta[1] * x
@@ -78,4 +78,3 @@ Equation J(theta[0], theta[1]) is also known as the **"Squared Error Function"**
 
  - Lastly, this method looks at every example in the entire training set on every step, and is called **batch gradient descent.**
 
- 
