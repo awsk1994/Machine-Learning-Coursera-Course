@@ -1,9 +1,11 @@
 # Multiple Features
 
+Before, we start, consider this notation:
+![multivariate_notation](./img/multivariate_notation.png)
+
 The multivariable form of the hypothesis function:
-
 ![multivariate_hypothesis](./img/multivariate_hypothesis.png)
-
+a
 This can be written in matrix form:
 ![multivariate_hypothesis_matrix](./img/multivariate_hypothesis_matrix.png)
 
@@ -17,6 +19,9 @@ Gradient Descent for Multiple Variable:
 **Idea:** 
  - Make sure features are on a similar scale ("similar scale" - meaning similar range of values).
  - You want to make it between 0 < x < 1
+
+**Default**:
+ - The equation is often: x[i] := (x[i] - μ[i])/s[i], where μ[i] is average for all values for feature(i) and s[i] is the range of the values (max - min) (or sometimes, the stdev)
 
 **Example:**
  - x1: size (0-2000ft^2)
