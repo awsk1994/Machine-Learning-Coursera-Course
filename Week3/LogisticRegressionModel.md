@@ -7,14 +7,11 @@ Instead, our cost function for logistic regression looks like:
 
 When y = 1, we get the following plot for J(θ),hθ(x):
 
-
 ![cost_func_y=1](./img/cost_func_y=1.png)
 
 Similarily, y = 0, we get:
 
-
 ![cost_func_y=0](./img/cost_func_y=0.png)
-
 
 Denoted below: If the correct answer(y) is 1, and our hypothesis(hθ[x]) is 1, then the cost is zero. Conversely, if our hypothesis is 0, then the cost is inifinite. vice versa for y=0.
 ![cost_func_range](./img/cost_func_range.png)
@@ -30,6 +27,7 @@ To write it fully, it's:
 # Gradient Descent
 
 Recall from previously that the gradient descent algorithm is:
+
 ![gradient_descent](./img/gradient_descent.png)
 
 The α * deriative(J(θ)) is actually same as our linear regression, which is:
