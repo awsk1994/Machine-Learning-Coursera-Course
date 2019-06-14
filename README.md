@@ -23,5 +23,5 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
    - Normal Equation & Implementation
 
 ### Week 3
- - [ClassificationAndRepresentation](./Week3/ClassificationAndRepresentation.md)
+ - [Classification And Representation](./Week3/ClassificationAndRepresentation.md)
 
