@@ -19,3 +19,9 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
  - [Linear Regression with Multiple Variables](./Week2/LinearRegressionWithMultipleVariables.md)
    - Multivariate Linear Regression
    - Computing Parameters Analytically
+ - [Normal Equation](./Week2/NormalEquation.md)
+   - Normal Equation & Implementation
+
+### Week 3
+ - [ClassificationAndRepresentation](./Week3/ClassificationAndRepresentation.md)
+
