@@ -44,11 +44,11 @@ We can apply regularization to both linear regression and logistic regression. W
 
 We will modify our gradient descent function to separate out 0[0] from the rest of the parameters because we do not want to penalize 0[0].
 
-<img src="./img/regularized_linear_function_gradient_descent.png" height="120"/>
+<img src="./img/regularized_linear_function_gradient_descent.png" height="180"/>
 
 The term (λ/m)θ[j] performs our regularization. With some manipulation, our update rule can also be represented as:
 
-<img src="./img/reordering_linear_gradient_descent.png" height="100"/> (This is really just subbing 0[j] on the outside.)
+<img src="./img/reordering_linear_gradient_descent.png" height="180"/> (This is really just subbing 0[j] on the outside.)
 
 <img src="./img/better_linear_gradient_descent.png" height="30"/>
 
@@ -72,7 +72,7 @@ We can regularize logistic regression in a similar way that we regularize linear
 
 The following image shows how the regularized function, displayed by the pink line, is less likely to overfit than the non-regularized function represented by the blue line:
 
-<img src="./img/regularized_logistic_regression.png" height="300"/>
+<img src="./img/regularized_logistic_regression.png" height="350"/>
 
 ## Cost Function
 
@@ -85,4 +85,4 @@ We can regularize this equation by adding a term to the end:
 
 The second sum, <img src="./img/logistic_cost_function_second_sum.png" height="30"/> means to explicitly exclude the bias term, θ[0]. I.e. the θ vector is indexed from 0 to n (holding n+1 values, θ[0] through θ[n], and this sum explicitly skips θ[0], by running from 1 to n, skipping 0. Thus, when computing the equation, we should continuously update the two following equations:
 
-<img src="./img/logistic_gradient_descent.png" height="180"/>
+<img src="./img/logistic_gradient_descent.png" height="210"/>

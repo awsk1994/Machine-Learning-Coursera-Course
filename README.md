@@ -24,6 +24,6 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 
 ### Week 3
  - [Classification And Representation](./Week3/ClassificationAndRepresentation.md)
- - [Logistic Regression Model](./Week3/LogisticRegressionModel.png)
+ - [Logistic Regression Model](./Week3/LogisticRegressionModel.md)
+ - [Solving The Problem of Overfitting](./Week3/SolvingTheProblemOfOverfitting.md)
 
- 
