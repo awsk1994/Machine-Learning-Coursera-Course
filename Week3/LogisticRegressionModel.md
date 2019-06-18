@@ -40,3 +40,21 @@ The α * deriative(J(θ)) is actually same as our linear regression, which is:
 # Advanced Optimizations
 **"Conjugate gradient", "BFGS", and "L-BFGS"** are more sophisticated, faster ways to optimize θ that can be used instead of gradient descent. We suggest that you should not write these more sophisticated algorithms yourself (unless you are an expert in numerical computing) but use the libraries instead, as they're already tested and highly optimized. Octave provides them.
 
+# Multi-Class Classification
+What if oyu have more than two categories? Instead of y = {0,1} we will expand our definition so that y = {0,1...n-1}.
+
+Since y = {0,1...n-1}, we divide our problem into n binary classification problems; in each one, we predict the probability that 'y' is a member of one of our classes.
+
+![multi_class_classification](./img/multi_class_classification.png)
+
+We are basically choosing one class and then lumping all the others into a single second class. We do this repeatedly, applying binary logistic regression to each case, and then use the hypothesis that returned the highest value as our prediction.
+
+The following image shows how one could classify 3 classes:
+
+![one_vs_all](./img/one_vs_all.png)
+
+To summarize:
+
+Train a logistic regression classifier hθ(x) for each class￼ to predict the probability that ￼ ￼y = i￼ ￼.
+
+To make a prediction on a new x, pick the class ￼that maximizes hθ(x)
