@@ -27,3 +27,9 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
  - [Logistic Regression Model](./Week3/LogisticRegressionModel.md)
  - [Solving The Problem of Overfitting](./Week3/SolvingTheProblemOfOverfitting.md)
 
+### Week 4
+ - [Motivations](./Week4/Motivations.md)
+ - [Neural Networks](./Week4/NeuralNetworks.md)
+ - [Applications](./Week4/Applications.md)
+
+
