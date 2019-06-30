@@ -32,4 +32,6 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
  - [Neural Networks](./Week4/NeuralNetworks.md)
  - [Applications](./Week4/Applications.md)
 
-
+### Week 5
+ - [Cost Function and Back Propagation](./Week5/CostFunctionAndBackPropagation.md)
+  - [Back Propagation in Practice](./Week5/BackPropagationInPractice.md)
