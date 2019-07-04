@@ -54,6 +54,11 @@ The **"delta values of layer l" are calculated by multiplying the delta values i
  The g-prime derivative terms can also be written out as:
 <img src="./img/back_propagation/g_prime_derivative.png" height="20"/>
 
+In more details:
+<img src="./img/back_prop_delta_calc.png" height="200"/>
+
+As shown above, delta(4)(final layer) and delta(1) are calculated differently.
+
 5. <img src="./img/back_propagation/back_prop_step_5.png" height="25"/>
 
 Hence we update our new Δ matrix.
