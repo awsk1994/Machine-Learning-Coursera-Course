@@ -35,3 +35,11 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 ### Week 5
  - [Cost Function and Back Propagation](./Week5/CostFunctionAndBackPropagation.md)
   - [Back Propagation in Practice](./Week5/BackPropagationInPractice.md)
+
+### Week 6
+ - [Evaluation a Learnign Algorithm](./Week6/1-EvaluatingALearningAlgorithm.md)
+  - [Bias vs Variance](./Week6/2-BiasVsVariance.md)
+  - [Building a Spam Classifier](./Week6/3-BuildingASpamClassifier.md)
+  - [Handling Skewed Data](./Week6/4-HandlingSkewedData.md)
+  - [Using Large Data Sets](./Week6/5-UsingLargeDataSets.md)
+  
