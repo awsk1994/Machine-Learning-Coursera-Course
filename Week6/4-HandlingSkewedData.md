@@ -54,3 +54,43 @@ It's **not possible for an algorithm to "cheat" and get a very high precision an
 ## Decicidng y=1 or y=0 to calculate Precision-Recall
 
 We usually use y=1, in the presence of the **more rare class** we are trying to detect. For example, having cancner.
+
+# Trading Off Precision and Recall
+
+Suppose we define our hypothesis as:
+<img src="./img/4/algorithm.png" height="75"/>
+
+## Higher Precision (Lower Recall)
+Suppose we want to predict y=1 (cancer) **only if we are confident** (because we don't want to false alarm scare our customers).
+
+One way to do this is to achieve higher precision (and as a result, lower recall) by modifying our algorithm to a higher threshold; as shown below:
+
+<img src="./img/4/high_precision_algorithm.png" height="50"/>
+
+## Higher Recall (Lower Precision)
+
+Suppose we want to avoid missing too many cases of cancer (avoid false negatives) - because if we tell our customer they don't have cancer, but they actually do, then they will miss their treatment.
+
+In contrast to increasing precision, we can achieve higher recall (as a result, lower precision) by modifying our algorithm to a lower threshold; as shown below:
+
+<img src="./img/4/high_recall_algorithm.png" height="50"/>
+
+## Precision-Recall Curve
+
+As you plot out different precision and recall for various thresholds, using <img src="./img/4/threshold_algorithm.png" height="20"/>, you will see something like:
+
+<img src="./img/4/precision_recall_curve.png" height="150"/> 
+
+(NOTE: the curve can come in very different shapes)
+
+## F1 Score
+<img src="./img/4/algos_with_different_precision_recall.png" height="150"/> 
+
+Assume we have results shown above. It's hard to decide whether we need a higher or lower precision/recall. So is there a **standardized way to decide the best precision-recall**? Yes, there is - the F1 Score (or just F Score).
+
+We know that a particularly high or low precision and recall results in a bad classifier. As a result, the average of precision-recall is not a good metric. 
+
+<img src="./img/4/f_score_algo.png" height="40"/>
+(P = precision, R = recall)
+
+If either P or R = 0, then F score = 0. This captures both low Ps and low Rs, which usually means a bad classifier.
