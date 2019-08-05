@@ -39,3 +39,34 @@ To be specific, f1 is exp function over a summation of all x's distance to a par
 sigma^2 controls the contour. It is more obvious on a 3D graph above. As number of sigma decreases, the mountain/tip is more narrow; and vice versa.
 
 # Kernels 2
+
+## Where to get landmark from? or How to choose where to place landmarks?
+
+1. Set up Landmark
+   - Given X=[(x1,y1), (x2,y2),...], set l_i = x_i (set landmark = training set)
+
+2. Compute feature
+     - Example:
+        - f_1 = similarity(x, l_1)
+        - f_2 = similarity(x, l_2)
+        - ...
+    - You want to end up with a general 'f', where f = [f_0, f_1, ..., f_m]
+    - Do set f_0 to 1 though.
+    - Because landmark = training set, at one point, you will be comparing f_i^i = similarity(x^i, l^i) = 1.
+
+## Minimizing Theta
+<img src="./img/2/get_theta_formula.png" height="50"/>
+
+ - There are 3-rd party software out there that will do the minimization problem. Use those. Do not write program that has already been written! Also, they usually have more advanced optimization tricks.
+
+## C (=1/lambda)
+ - Large C = lower bias, high variance
+ - Small C = higher bias, lower variance.
+
+## sigma^2
+ - Large sigma^2: 
+   - Features f_i vary more smoothly.
+   - Higher bias, Lower variance.
+ - Small sigma^2:
+   - Features f_i vary less smoothly.
+   - Lower bias, Higher variance.
