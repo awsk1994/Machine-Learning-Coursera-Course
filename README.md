@@ -43,3 +43,7 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
   - [Handling Skewed Data](./Week6/4-HandlingSkewedData.md)
   - [Using Large Data Sets](./Week6/5-UsingLargeDataSets.md)
   
+### Week 7
+- [Large Margin Classification](./Week7/1-LargeMarginClassification.md)
+- [Kernels](./Week7/2-Kernels.md)
+- [Using an SVM](./Week7/3-UsingAnSVM.md)
