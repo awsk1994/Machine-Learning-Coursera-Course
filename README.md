@@ -47,3 +47,5 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 - [Large Margin Classification](./Week7/1-LargeMarginClassification.md)
 - [Kernels](./Week7/2-Kernels.md)
 - [Using an SVM](./Week7/3-UsingAnSVM.md)
+
+### Week 8
