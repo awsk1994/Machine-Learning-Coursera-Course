@@ -49,3 +49,4 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 - [Using an SVM](./Week7/3-UsingAnSVM.md)
 
 ### Week 8
+- [Large Margin Classification](./Week8/1-Clustering.md)
