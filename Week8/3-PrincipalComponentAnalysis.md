@@ -112,11 +112,12 @@ If you're implementing this in a different language than Octave or MATLAB, you s
 
 The SVD outputs three matrices: u, s, and v. The thing you really need out of them is the u matrix.
 
-The u matrix will also be a NxN matrix.
-If we look at the columns of the U matrix, it turns out that the columns of the U matrix is exactly the direction vectors, u1, u2 and so on.
+The **u matrix will also be a NxN matrix**.
 
-Since we want to reduce the data from n dimensions down to k dimensions, then we just need to take the first k vectors that gives us u_1 up to u_K. For now, let's call this matrix the Ureduce matrix.
+If we look at the columns of the U matrix, it turns out that the **columns of the U matrix is exactly the direction vectors, u1, u2 and so on**.
+
+Since we want to reduce the data from n dimensions down to k dimensions, then we just need to **take the first k vectors that gives us u_1 up to u_K**. For now, let's call this matrix the **Ureduce matrix**.
 
 ### 4) Compute z
 
-Next, we compute Z by letting Z equal to the Ureduce matrix transpose times X. 
+Next, we **compute Z by letting Z equal to the Ureduce matrix transpose times X**. 

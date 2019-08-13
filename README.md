@@ -50,3 +50,6 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 
 ### Week 8
 - [Clustering](./Week8/1-Clustering.md)
+- [Motivation](./Week8/2-Motivation.md)
+- [Principal Component Analysis](./Week8/3-PrincipalComponentAnalysis.md)
+- [Applying PCA](./Week8/4-ApplyingPCA.md)

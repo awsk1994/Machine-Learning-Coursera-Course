@@ -11,9 +11,9 @@ In the PCA algorithm, we may have an example like this. Given the point z1, how 
 
 <img src="./img/4/pca_decompress.png" height="100"/>
 
- - Assume z = Ureduce' * X.
- - If you want to go in the opposite direction, the equation for that is:
-   - X_approx^(i) = Ureduce * z^(i)
+ - **Assume z = Ureduce' * X**
+ - If you want to go in the **opposite direction**, the equation for that is:
+   - **X_approx^(i) = Ureduce * z^(i)**
 
 # Choosing the Number of Principal Components
 
@@ -52,8 +52,10 @@ If you want to tell someone how many principle components you've retained, it wo
 How do you implement this? Here's one algorithm that you might use. Assuming we want to achieve 99% of the variance.
 
 1. Choose the value of k, starting with k = 1. 
-2. Compute Ureduce matrix, z1, z2 to z_m. 
-3. Compute all of the x1_approx up to xm_approx
+2. Compute Ureduce matrix. 
+   - algorithm is: <img src="./img/4/compute_Ureduce.png" height="20"/>
+3. Compute all of the x1_approx up to xm_approx (or z_1 to z_m)
+   - algorithm is: <img src="./img/4/compute_z.png" height="20"/>
 4. Check if 99% of the variance is retained.
 5. If step 4 condition is not fulfilled, then we move onto k = 2 and repeat the entire process. We increment k until step 4 condition is fullfilled.  
 
