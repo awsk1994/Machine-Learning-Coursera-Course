@@ -53,3 +53,10 @@ Notes for a Coursera Course, Machine learning, by Andrew Ng.
 - [Motivation](./Week8/2-Motivation.md)
 - [Principal Component Analysis](./Week8/3-PrincipalComponentAnalysis.md)
 - [Applying PCA](./Week8/4-ApplyingPCA.md)
+
+### Week 9
+- [Density Estimation](./Week9/1-DensityEstimation.md)
+- [Building An Anomaly Detection System](./Week9/2-BuildingAnAnomalyDetectionSystem.md)
+- [Predicting Movie Ratings](./Week9/3-PredictingMovieRatings.md)
+- [Collaborative Filtering](./Week9/4-CollaborativeFiltering.md)
+- [Low Rank Matrix Factorization](./Week9/5-LowRankMatrixFactorization.md)
