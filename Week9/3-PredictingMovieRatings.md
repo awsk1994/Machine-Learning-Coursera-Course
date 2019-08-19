@@ -98,3 +98,4 @@ From screenshot above, the top is our optimization objective and the bottom is t
 
 If you want, you can also plug them into a more advanced optimization algorithm, like conjugate gradient or
 LBFGS or what have you, and use that to try to minimize the cost function j as well. 
+
